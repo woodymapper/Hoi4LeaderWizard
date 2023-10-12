@@ -58,10 +58,10 @@ namespace Hoi4Charmaker
                 string Filez = textBox1.Text + ".txt";
 
                 string appPath2 = Application.StartupPath + Filez;
-
+                // i need to make this spaghetti a pizza
                 File.WriteAllText(appPath2, "characters={ \r\n" + "name=\"" + name + "\" \r\n" + "portraits={\r\ncivilian={\r\nlarge=\"" + gfx + "\"}\r\n}" + "\r\n\ncountry_leader={\r\nideology=\"" + ideology + "\"\r\nexpire=\""+ exp + "\"}" + "\r\n}" + "\r\n #made using woody's leader wizard \r\n #version 1.0 \r\n #Github: https://github.com/woodymapper/Hoi4LeaderWizard");
 
-                Error_ctrl.Text = "File Created Successfully";
+                Error_ctrl.Text = "File Created Successfully"; 
 
             
 
