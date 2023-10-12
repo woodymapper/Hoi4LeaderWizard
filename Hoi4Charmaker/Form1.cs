@@ -59,7 +59,7 @@ namespace Hoi4Charmaker
 
                 string appPath2 = Application.StartupPath + Filez;
 
-                File.WriteAllText(appPath2, "characters={ \r\n" + "name=\"" + name + "\" \r\n" + "portraits={\r\ncivilian={\r\nlarge=\"" + gfx + "\"}\r\n}" + "\r\n\ncountry_leader={\r\nideology=\"" + ideology + "\"\r\nexpire=\""+ exp + "\"}" + "\r\n}" + "\r\n #made using woody's leader wizard \r\n #version 1.0");
+                File.WriteAllText(appPath2, "characters={ \r\n" + "name=\"" + name + "\" \r\n" + "portraits={\r\ncivilian={\r\nlarge=\"" + gfx + "\"}\r\n}" + "\r\n\ncountry_leader={\r\nideology=\"" + ideology + "\"\r\nexpire=\""+ exp + "\"}" + "\r\n}" + "\r\n #made using woody's leader wizard \r\n #version 1.0 \r\n #Github: https://github.com/woodymapper/Hoi4LeaderWizard");
 
                 Error_ctrl.Text = "File Created Successfully";
 
