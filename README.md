@@ -5,7 +5,7 @@ Made by Woody to reduce time making leaders while modding in Hoi4 as it's annoyi
 
 ToDo:
 
--Generals
--Linux support
--CLI version
--Pretty Interface
+-Generals                 
+-Linux support                        
+-CLI version                        
+-Pretty Interface                     
